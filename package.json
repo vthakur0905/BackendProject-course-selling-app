@@ -1,0 +1,20 @@
+{
+  "name": "week08_backendcoursesellingapp",
+  "version": "1.0.0",
+  "description": "- initialize a new node.js project\r - add express, jsonwebtoken, to it as dependency\r - create index.js\r - add route  skeleton for user login, signup, purchase a course,  see courses.\r - add routes for admin login, admin signup ,create a course, delete a course, add course content \r - add middlewares for user and admin auth\r - add a db (mongodb), use dotenv to store database connection string\r - define the schema for user , admin, course and purchase\r - complete the routes\r - create the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "zod": "^3.24.1"
+  }
+}
