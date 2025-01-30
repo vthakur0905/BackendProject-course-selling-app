@@ -22,7 +22,7 @@ app.use("/admin", adminRouters) ;
 
 async function startserver(){
     try {
-        await mongoose.connect("your mongo string");
+        await mongoose.connect("your mongo string ");
 
         console.log("connected to db");
         app.listen(port, () => {
